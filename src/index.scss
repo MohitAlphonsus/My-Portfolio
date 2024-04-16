@@ -1,0 +1,74 @@
+:root {
+	--color-dark: #333;
+	--color-light: #f7f7f7;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+input,
+button {
+	font: inherit;
+}
+
+img,
+svg {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.app {
+	height: 100vh;
+	background: linear-gradient(
+		to right,
+		hsla(141, 54%, 86%, 1) 0%,
+		hsla(333, 73%, 85%, 1) 50%,
+		hsla(211, 58%, 79%, 1) 100%
+	);
+}
+
+.mainContainer {
+	display: grid;
+	grid-template-columns: 3fr 8fr 0.5fr;
+	gap: 1rem;
+	padding: 6rem 5%;
+	height: 100%;
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5179/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+		<script type="module" src="./Vite + React_files/client"></script>
+
+		
+		<link rel="icon" type="image/svg+xml" href="http://localhost:5179/vite.svg">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- 
+      Google Font
+     -->
+		<link rel="preconnect" href="https://fonts.googleapis.com/">
+		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+		<link href="./Vite + React_files/css2" rel="stylesheet">
+		<title>Vite + React</title>
+	<style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/UI/Button.scss">.btn {
+  border: none;
+  background: rgb(91, 91, 236);
+  color: var(--color-light);
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+.btn:hover, .btn:active {
+  background-color: rgb(51, 51, 223);
+}</style><style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/components/BriefAside.scss">.aside {
+  border-radius: 3px;
+  position: relative;
+  background-color: var(--color-light);
+}
+.aside__image {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 16rem;
+  width: 15rem;
+  border-radius: 3px;
+  background-size: cover;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.aside__content {
+  height: 100%;
+  padding: 50% 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.aside__header {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.aside__header--name {
+  font-size: 2rem;
+}
+.aside__header--profession {
+  background-color: #eee;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+}
+.aside__header--social {
+  display: flex;
+  gap: 1rem;
+}
+.aside__header--social-icon {
+  height: 4rem;
+  width: 4rem;
+  background-color: #eee;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+.aside__main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 3px;
+}
+.aside__group {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 0.5rem 1rem;
+}
+.aside__group > *:first-child {
+  grid-row: 1/-3;
+  align-self: center;
+  justify-self: center;
+  width: 3rem;
+  fill: #007991;
+}
+.aside__group span:not(:last-child) {
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.7;
+}
+.aside__group span:last-child {
+  font-size: 1.4rem;
+  font-weight: 500;
+}</style><style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/pages/About.scss"></style><style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/components/Main.scss">.main {
+  border-radius: 3px;
+  background-color: var(--color-light);
+}</style><style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/components/Nav.scss">.nav {
+  border-radius: 3px;
+  background-color: var(--color-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+.nav__item, .nav__item:link, .nav__item:visited {
+  background-color: #eee;
+  padding: 1rem;
+  width: calc(100% - 1rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: backbackground-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.nav__item > *:first-child {
+  font-size: 1.4rem;
+}
+.nav__item:hover, .nav__item:active {
+  background-color: rgb(91, 91, 236);
+  color: var(--color-light);
+}</style><style type="text/css" data-vite-dev-id="F:/02_New/projects/Portfolio/src/index.scss">:root {
+  --color-dark: #333;
+  --color-light: #f7f7f7;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  height: 100vh;
+  background: linear-gradient(to right, hsl(141, 54%, 86%) 0%, hsl(333, 73%, 85%) 50%, hsl(211, 58%, 79%) 100%);
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: 3fr 8fr 0.5fr;
+  gap: 1rem;
+  padding: 6rem 5%;
+  height: 100%;
+}</style><style type="text/css" id="country-flag-fixer-ext">
+    @font-face {
+        font-family: "Twemoji Country Flags";
+        font-style: normal;
+        src: url('chrome-extension://jhcpefjbhmbkgjgipkhndplfbhdecijh/assets/TwemojiCountryFlags.woff2') format('woff2');
+        unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+    }
+
+    @font-face {
+        font-family: "Twemoji Country Flags";
+        font-style: italic; /* Defined to prevent italic styled flags */
+        src: url('chrome-extension://jhcpefjbhmbkgjgipkhndplfbhdecijh/assets/TwemojiCountryFlags.woff2') format('woff2');
+        unicode-range: U+1F1E6-1F1FF, U+1F3F4, U+E0062-E0063, U+E0065, U+E0067, U+E006C, U+E006E, U+E0073-E0074, U+E0077, U+E007F;
+    }
+</style></head>
+	<body>
+		<div id="root"><div class="app"><div class="mainContainer"><aside class="aside"><div class="aside__image" style="background-image: url(&quot;/src/assets/profile.webp&quot;);">&nbsp;</div><div class="aside__content"><div class="aside__header"><h6 class="aside__header--name">Mohit Jadhav</h6><span class="aside__header--profession">Frontend Developer</span><div class="aside__header--social"><div class="aside__header--social-icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path></svg></div><div class="aside__header--social-icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg></div><div class="aside__header--social-icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></div><div class="aside__header--social-icon"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></div></div></div><div class="aside__main"><div class="aside__group"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M15.5 1h-8A2.5 2.5 0 0 0 5 3.5v17A2.5 2.5 0 0 0 7.5 23h8a2.5 2.5 0 0 0 2.5-2.5v-17A2.5 2.5 0 0 0 15.5 1zm-4 21c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm4.5-4H7V4h9v14z"></path></svg><span>Phone</span><span>9518359623</span></div><div class="aside__group"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"></path></svg><span>Email</span><span>mohitdalphonso@gmail.com</span></div><div class="aside__group"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"></path><circle cx="12" cy="9" r="2.5"></circle></svg><span>Location</span><span>Shrirampur, Ahmednagar</span></div><div class="aside__group"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M12 6a2 2 0 0 0 2-2c0-.38-.1-.73-.29-1.03L12 0l-1.71 2.97c-.19.3-.29.65-.29 1.03 0 1.1.9 2 2 2zm6 3h-5V7h-2v2H6c-1.66 0-3 1.34-3 3v9c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-9c0-1.66-1.34-3-3-3zm1 11H5v-3c.9-.01 1.76-.37 2.4-1.01l1.09-1.07 1.07 1.07c1.31 1.31 3.59 1.3 4.89 0l1.08-1.07 1.07 1.07c.64.64 1.5 1 2.4 1.01v3zm0-4.5c-.51-.01-.99-.2-1.35-.57l-2.13-2.13-2.14 2.13c-.74.74-2.03.74-2.77 0L8.48 12.8l-2.14 2.13c-.35.36-.83.56-1.34.57V12c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v3.5z"></path></svg><span>Birthday</span><span>Dec 30, 1995</span></div></div><button class="btn">Download CV</button></div></aside><div class="main"><div class="about">About</div></div><nav class="nav"><a class="nav__item"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"></path></svg><span>About</span></a><a class="nav__item"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M64 464c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H224v80c0 17.7 14.3 32 32 32h80V448c0 8.8-7.2 16-16 16H64zM64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V154.5c0-17-6.7-33.3-18.7-45.3L274.7 18.7C262.7 6.7 246.5 0 229.5 0H64zm56 256c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H120z"></path></svg><span>Resume</span></a><a class="nav__item"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M0 80C0 53.5 21.5 32 48 32h96c26.5 0 48 21.5 48 48V96H384V80c0-26.5 21.5-48 48-48h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H432c-26.5 0-48-21.5-48-48V160H192v16c0 1.7-.1 3.4-.3 5L272 288h96c26.5 0 48 21.5 48 48v96c0 26.5-21.5 48-48 48H272c-26.5 0-48-21.5-48-48V336c0-1.7 .1-3.4 .3-5L144 224H48c-26.5 0-48-21.5-48-48V80z"></path></svg><span>Projects</span></a><a class="nav__item"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M384 48c8.8 0 16 7.2 16 16V448c0 8.8-7.2 16-16 16H96c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H384zM96 0C60.7 0 32 28.7 32 64V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H96zM240 256a64 64 0 1 0 0-128 64 64 0 1 0 0 128zm-32 32c-44.2 0-80 35.8-80 80c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16c0-44.2-35.8-80-80-80H208zM512 80c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V80zM496 192c-8.8 0-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm16 144c0-8.8-7.2-16-16-16s-16 7.2-16 16v64c0 8.8 7.2 16 16 16s16-7.2 16-16V336z"></path></svg><span>Contact</span></a></nav></div></div></div>
+		<script type="module" src="./Vite + React_files/main.jsx"></script>
+	
+
+</body></html>
