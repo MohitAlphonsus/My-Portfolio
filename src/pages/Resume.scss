@@ -1,0 +1,64 @@
+.resume {
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 2rem;
+
+	&__education {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 1rem;
+	}
+
+	&__box {
+		border-radius: var(--border-rd-2);
+		background-color: #eee;
+		padding: 2rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		span:first-child {
+			font-size: 1.4rem;
+			letter-spacing: 1px;
+		}
+	}
+
+	&__tools {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	&__tool {
+		border: 1px solid #eee;
+		padding: 1rem;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		&--icon {
+			font-size: 2.4rem;
+		}
+
+		span {
+			font-size: 1.6rem;
+		}
+	}
+
+	&__skills {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+	}
+
+	&__skill {
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		background-color: aquamarine;
+		font-size: 1.2rem;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+}

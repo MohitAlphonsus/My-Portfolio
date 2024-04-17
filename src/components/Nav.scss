@@ -1,5 +1,5 @@
 .nav {
-	border-radius: 3px;
+	border-radius: var(--border-rd-1);
 	background-color: var(--color-light);
 	display: flex;
 	flex-direction: column;
@@ -20,6 +20,7 @@
 			align-items: center;
 			gap: 0.5rem;
 			cursor: pointer;
+			border-radius: var(--border-rd-1);
 			transition: backbackground-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		}
 
