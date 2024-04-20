@@ -1,4 +1,4 @@
-import './Button.scss';
+import './UI.scss';
 
 export default function Button({ children }) {
 	return <button className="btn">{children}</button>;

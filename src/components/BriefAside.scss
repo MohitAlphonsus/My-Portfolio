@@ -1,7 +1,5 @@
 .aside {
-	border-radius: var(--border-rd-1);
 	position: relative;
-	background-color: var(--color-light);
 
 	&__image {
 		position: absolute;
@@ -35,7 +33,10 @@
 		}
 
 		&--profession {
-			background-color: #eee;
+			background-color: var(--color-main-1);
+			color: var(--color-dark);
+			// background-color: var(--color-dark);
+			// color: var(--color-main-2);
 			padding: 0.2rem 1rem;
 			border-radius: 5px;
 		}
@@ -48,10 +49,30 @@
 		&--social-icon {
 			height: 4rem;
 			width: 4rem;
-			background-color: #eee;
+			background-color: var(--color-light);
 			border-radius: 50%;
 			display: grid;
 			place-content: center;
+
+			& > * {
+				font-size: 2rem;
+			}
+
+			&--1 {
+				color: #1877f2;
+			}
+
+			&--2 {
+				color: #000;
+			}
+
+			&--3 {
+				color: #c32aa3;
+			}
+
+			&--4 {
+				color: #0a66c2;
+			}
 		}
 	}
 
@@ -74,7 +95,7 @@
 			align-self: center;
 			justify-self: center;
 			width: 100%;
-			fill: #007991;
+			fill: var(--color-main-1);
 		}
 
 		span:not(:last-child) {

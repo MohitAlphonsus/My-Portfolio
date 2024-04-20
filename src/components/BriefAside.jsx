@@ -4,7 +4,7 @@ import './BriefAside.scss';
 
 function BriefAside() {
 	return (
-		<aside className="aside">
+		<aside className="aside container">
 			<div
 				className="aside__image"
 				style={{ backgroundImage: `url(${aside.profile})` }}
@@ -18,12 +18,12 @@ function BriefAside() {
 					<div className="aside__header--social">
 						{aside.social.map(({ id, icon: Icon }) => (
 							<div key={id} className="aside__header--social-icon">
-								<Icon />
+								<Icon className={`aside__header--social-icon--${id}`} />
 							</div>
 						))}
 					</div>
 				</div>
-				<div className="aside__main">
+				<div className="aside__main card">
 					{aside.main.map(({ id, icon: Icon, title, info }) => (
 						<div className="aside__group" key={id}>
 							<Icon />

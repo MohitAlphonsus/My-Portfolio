@@ -4,7 +4,7 @@ import './Nav.scss';
 
 function Nav() {
 	return (
-		<nav className="nav">
+		<nav className="nav container">
 			{nav.map(({ id, icon: Icon, name, toLink }) => (
 				<NavLink key={id} className="nav__item" to={toLink}>
 					<Icon />
